@@ -41,7 +41,7 @@ int main(){
 }
 /*
 cosas por hacer:
-    a) agregar héroe
+    a) agregar hÃ©roe
     b) listar los heores
     c) lista los heroes mayor a
     d) heroe A ataca a heroe B
@@ -53,45 +53,5 @@ cosas por hacer:
     scanf("%s", &atacante)
     printf("Heroe B: ");
     scanf("%s", &atacado);
-
-    pelea(Heroe *h1, Heroe *h2){
-        int *a, *b;
-
-    }
-    Batalla(comparaNombre(char *atacante))
-
-    int ConfirmarHeroe(void *nombre, Heroe *h2){
-    char *x, *y;
-    x = (char *)nombre;
-    y = &(h2->nombre);
-    if (strcmp(*x, *y) == 0)
-        return 1;
-    return 0;
-}
-    Nodo *pNodoA;
-    pNodoA= *(misHeroes)->inicio;
-    while(pNodoA != NULL){
-        if(ConfirmarHeroe(atacante, pNodoA->informacion)==1)
-            return pNodoA->informacion;
-        pNodoA = pNodoA->siguiente;
-    }
-    return 0;
-
-    Nodo *pNodoB;
-    pNodoB = *(misHeroes)->inicio;
-    while(pNodoB != NULL){
-        if(ConfirmarHeroe(atacante, pNodoB->informacion)==1)
-            return pNodoB->informacion;
-        pNodoB = pNodoB->siguiente;
-    }
-    return 0;
-    recorre(&misHeroes, pelea(pNodoA->informacion, pNodoB->informacion));
-    imprime(&misHeroes);
-
-    printf("Heroe A ataca a Heroe B\n");
-    printf("Heroe A: ");
-    scanf("%s", &atacante);
-    printf("Heroe B: ");
-    scanf("%s", &atacado);
-
 */
+
